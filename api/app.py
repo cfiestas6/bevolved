@@ -141,14 +141,17 @@ def exam_end():
     data = request.get_json()
     exam_id = data.get('exam_id')
     exam = Exams.query.filter_by(exam_id=exam_id).first()
-    exam.repository = data.get('repository')
-    test_result = run_tests_on_repo()
+    student_repository = data.get('repository')
+    exam.repository = student_repository
+    test_result = run_tests_on_repo(student_repository, "/test/tests/exam")
     student_id = data.get('student_id')
     grades = Grades.query.find_by(student_id=student_id).first()
-
-    # grades.exam00 = ** tester output **
-    # save grade to grades table
+    grades.exam00 = test_result
     db.session.commit()
+
+    return jsonify({
+        "exam_result": test_result
+    })
 
 
 @app.route("/exam/verify", methods=['POST'])
