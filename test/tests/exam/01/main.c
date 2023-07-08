@@ -2,7 +2,6 @@
 #include <string.h>
 #include <stdio.h>
 
-int	x_strncmp(char *s1, char *s2, unsigned int n);
 
 int main() {
 	char *str1 = (char *)"xxxxxx";
