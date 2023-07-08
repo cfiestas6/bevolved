@@ -23,6 +23,7 @@ export default function Signup(): JSX.Element {
             </Head>
             <Navigation
                 coursesUrl={{ href: "/courses" }}
+                connectWallerUrl={{ onClick: () => (alert('asfdg')) }}
                 homeUrl={{ href: "/" }} />
             <Join
                 formProps={{
@@ -34,17 +35,19 @@ export default function Signup(): JSX.Element {
                         const data = Object.fromEntries(formData.entries());
                         console.log(data);
 
-                        await fetch("/api/signup", {
+                        await fetch("http://127.0.0.1:5000/users/signup", {
                             body: JSON.stringify({
                                 email: data.email,
+                                wallet: "0x6b81844B6633Ad23asdfgasdfEFE4261893cb2d",
                                 first_name: data.first_name,
-                                last_name: data.last_name,
+                                last_name: data.last_name
                             }),
                             method: "POST",
                             headers: {
                               'Content-Type': 'application/json'
                             },
                         });
+                        window.location.href = "/courses";
                     },
                 }}
             />

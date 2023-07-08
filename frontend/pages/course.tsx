@@ -14,7 +14,7 @@ export default function Course(): JSX.Element {
             <Navigation
                 coursesUrl={{ href: "/courses" }}
                 homeUrl={{ href: "/" }} />
-            <Exam />
+            <Exam startExamUrl={{ onClick: () => (alert("asdfg")), href: "/exam"}} />
             <Footer />
         </>
     )
