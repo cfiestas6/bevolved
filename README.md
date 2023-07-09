@@ -11,8 +11,6 @@ This project is a decentralized education system that utilizes the power of bloc
 
 3. React: This JavaScript library is used for building the user interface of the dApp.
 
-4. AI: Artificial Intelligence is utilized to provide personalized learning experiences, grading, recommendations and other learning aids.
-
 ## Features
 
 1. Decentralized Certificates: The application issues certificates on the blockchain, making them immutable and easily verifiable.
