@@ -29,7 +29,7 @@ export default function Reviews(): JSX.Element {
             <Navigation
                 coursesUrl={{ href: "/courses" }}
                 homeUrl={{ href: "/" }} />
-            <Review verifyExam={{ onClick: handleVerfication }} />
+            <Review verifyExam={{ href: "/submissions" }} />
             <Footer />
         </>
     )
