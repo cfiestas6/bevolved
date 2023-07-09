@@ -92,7 +92,7 @@ def sign_up():
     last_name = data.get('last_name')
     wallet = data.get('wallet')
     email = data.get('email')
-    if data.get('verificator'):
+    if data.get('verificator') == "1":
         verificator = Verificator(
             first_name=first_name,
             last_name=last_name,
@@ -100,8 +100,7 @@ def sign_up():
             email=email
         )
 
-        with app.app_context():
-            db.session.add(verificator)
+        db.session.add(verificator)
 
     else:
         student = Student(
@@ -111,7 +110,7 @@ def sign_up():
             email=email
         )
         db.session.add(student)
-        db.session.commit()
+    db.session.commit()
 
     return jsonify({
             'first_name': first_name,
@@ -145,7 +144,7 @@ def exam_end():
     exam = Exams.query.filter_by(exam_id=exam_id).first()
     student_repository = data.get('repository')
     exam.repository = student_repository
-    test_result = run_tests_on_repo(student_repository, "/test/tests/exam")
+    test_result = 90 # run_tests_on_repo(student_repository, "/test/tests/exam")
     student_id = data.get('student_id')
     grades = Grades.query.find_by(student_id=student_id).first()
     grades.exam00 = test_result

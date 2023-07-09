@@ -192,6 +192,10 @@
   color: var(--redBase-7296a0e6);
 }
 
+.label-large.text-color-green {
+  color: var(--greenDark-3acfb82c);
+}
+
 .background-wrapper {
   position: absolute;
   left: 0%;

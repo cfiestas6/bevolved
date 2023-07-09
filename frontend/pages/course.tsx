@@ -3,6 +3,18 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 export default function Course(): JSX.Element {
+    async function startExam() {
+        // call sc (go exam)
+        await fetch("http://127.0.0.1:5000/exam/start", {
+            body: JSON.stringify({
+                student_id: 1, // to change
+            }),
+            method: "POST",
+            headers: {
+              'Content-Type': 'application/json'
+            },
+        });
+    }
     return (
         <>
             <Head>
@@ -14,7 +26,7 @@ export default function Course(): JSX.Element {
             <Navigation
                 coursesUrl={{ href: "/courses" }}
                 homeUrl={{ href: "/" }} />
-            <Exam startExamUrl={{ onClick: () => (alert("asdfg")), href: "/exam"}} />
+            <Exam startExamUrl={{ onClick: () => (startExam()), href: "/exam"}} />
             <Footer />
         </>
     )

@@ -31,7 +31,7 @@ export function Tree({ as: _Component = _Builtin.Block }) {
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Heading tag="h1">
-            {"your personal journey"}
+            {"your personal growth path"}
           </_Builtin.Heading>
         </_Builtin.Block>
         <_Builtin.Block

@@ -30,7 +30,7 @@ export function Recommended({
             tag="div"
           >
             <_Builtin.Block className={_utils.cx(_styles, "detail")} tag="div">
-              {"Your path"}
+              {"Next steps"}
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Heading tag="h1">
@@ -89,7 +89,7 @@ export function Recommended({
                   }}
                   tag="div"
                 >
-                  {"Tag"}
+                  {"Fundamentals"}
                 </_Builtin.Block>
               </_Builtin.Block>
               <_Builtin.Block
@@ -102,7 +102,9 @@ export function Recommended({
                   }}
                   tag="h5"
                 >
-                  {"Intro"}
+                  {"Programming in C: "}
+                  <br />
+                  {"The fundamentals"}
                 </_Builtin.Heading>
               </_Builtin.Block>
               <_Builtin.Paragraph
@@ -111,7 +113,7 @@ export function Recommended({
                 }}
               >
                 {
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+                  "Discover the foundation of programming. Learn to write, debug, and understand C code while building a solid foundation for future tech learning."
                 }
               </_Builtin.Paragraph>
               <_Builtin.Block
@@ -139,7 +141,7 @@ export function Recommended({
                   )}
                   tag="div"
                 >
-                  {"Premium"}
+                  {"Personalized"}
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>

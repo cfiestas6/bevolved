@@ -22,13 +22,21 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
             className={_utils.cx(_styles, "margin-bottom-08")}
             tag="div"
           >
-            <_Builtin.Heading tag="h2">{"Test"}</_Builtin.Heading>
+            <_Builtin.Heading tag="h2">
+              {"Exam: Programming in C: "}
+              <br />
+              {"The fundamentals"}
+            </_Builtin.Heading>
           </_Builtin.Block>
           <_Builtin.Block
             className={_utils.cx(_styles, "margin-bottom-32")}
             tag="div"
           >
-            <_Builtin.Paragraph>{"Lorem"}</_Builtin.Paragraph>
+            <_Builtin.Paragraph>
+              {
+                "Discover the foundation of programming. Learn to write, debug, and understand C code while building a solid foundation for future tech learning."
+              }
+            </_Builtin.Paragraph>
           </_Builtin.Block>
         </_Builtin.Block>
         <_Builtin.Grid
@@ -145,8 +153,17 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                 id="Color"
               >
                 <_Builtin.Block tag="div">
-                  <_Builtin.Strong>{"Note:"}</_Builtin.Strong>
-                  {" lorem"}
+                  <_Builtin.Strong>
+                    {"#include <stdio.h>int main() {"}
+                    <br />
+                    {"  int a = 5;"}
+                    <br />
+                    {'  printf("%d, %d\\n", a, a++);'}
+                    <br />
+                    {"  return 0;"}
+                    <br />
+                    {"}"}
+                  </_Builtin.Strong>
                   <br />
                 </_Builtin.Block>
               </_Builtin.Block>

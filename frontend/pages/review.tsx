@@ -3,6 +3,21 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 export default function Reviews(): JSX.Element {
+    // call sc (pass exam)
+    async function handleVerfication() {
+        await fetch("http://127.0.0.1:5000/exam/verify", {
+            body: JSON.stringify({
+                passed: true,
+                exam_id: 1, // to change
+                verificator_id: 1, // to change
+            }),
+            method: "POST",
+            headers: {
+              'Content-Type': 'application/json'
+            },
+        });
+    }
+
     return (
         <>
             <Head>
@@ -14,7 +29,7 @@ export default function Reviews(): JSX.Element {
             <Navigation
                 coursesUrl={{ href: "/courses" }}
                 homeUrl={{ href: "/" }} />
-            <Review />
+            <Review verifyExam={{ onClick: handleVerfication }} />
             <Footer />
         </>
     )

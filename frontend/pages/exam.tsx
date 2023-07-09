@@ -3,6 +3,20 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 export default function Exam(): JSX.Element {
+    async function endExam() {
+        await fetch("http://127.0.0.1:5000/exam/end", {
+            body: JSON.stringify({
+                student_id: 1, // to change
+                exam_id: 1, // to change
+                repository: "https://github.com/Noeljarillo/bevolvedExam",
+
+            }),
+            method: "POST",
+            headers: {
+              'Content-Type': 'application/json'
+            },
+        });
+    }
     return (
         <>
             <Head>
@@ -14,7 +28,7 @@ export default function Exam(): JSX.Element {
             <Navigation
                 coursesUrl={{ href: "/courses" }}
                 homeUrl={{ href: "/" }} />
-            <Test />
+            <Test submitTest={{ onClick: endExam }} />
             <Footer />
         </>
     )

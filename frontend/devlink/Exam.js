@@ -6,7 +6,7 @@ import * as _utils from "./utils";
 import _styles from "./Exam.module.css";
 
 const _interactionsData = JSON.parse(
-  '{"events":{"e-183":{"id":"e-183","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-184"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".course-header","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed8589f6","appliesTo":"CLASS"},"targets":[{"selector":".course-header","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed8589f6","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666753272813},"e-185":{"id":"e-185","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-15","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-186"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".course-header-card-wrapper","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2a","appliesTo":"CLASS"},"targets":[{"selector":".course-header-card-wrapper","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2a","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666753283050},"e-187":{"id":"e-187","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-21","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-188"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".course-background-circle","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2b","appliesTo":"CLASS"},"targets":[{"selector":".course-background-circle","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2b","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666753289342},"e-225":{"id":"e-225","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-17","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-226"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"f17140a1-52ed-dcf9-ab16-80d4e578cabe","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1688841901810}},"actionLists":{"a-14":{"id":"a-14","title":"Scroll View -> 01","actionItemGroups":[{"actionItems":[{"id":"a-14-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-14-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-14-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":200,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-14-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":200,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809},"a-15":{"id":"a-15","title":"Scroll View -> 02","actionItemGroups":[{"actionItems":[{"id":"a-15-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-15-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-15-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":400,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-15-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":400,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809},"a-21":{"id":"a-21","title":"Scroll View Scale -> 02","actionItemGroups":[{"actionItems":[{"id":"a-21-n","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}},{"id":"a-21-n-2","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"xValue":0.9,"yValue":0.9,"locked":true}}]},{"actionItems":[{"id":"a-21-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":600,"easing":"ease","duration":800,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-21-n-4","actionTypeId":"TRANSFORM_SCALE","config":{"delay":600,"easing":"ease","duration":800,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"xValue":1,"yValue":1,"locked":true}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929673738},"a-17":{"id":"a-17","title":"Scroll View -> 03","actionItemGroups":[{"actionItems":[{"id":"a-17-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-17-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-17-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":600,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-17-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":600,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}'
+  '{"events":{"e-183":{"id":"e-183","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-184"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".course-header","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed8589f6","appliesTo":"CLASS"},"targets":[{"selector":".course-header","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed8589f6","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666753272813},"e-185":{"id":"e-185","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-15","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-186"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".course-header-card-wrapper","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2a","appliesTo":"CLASS"},"targets":[{"selector":".course-header-card-wrapper","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2a","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666753283050},"e-187":{"id":"e-187","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-21","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-188"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".course-background-circle","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2b","appliesTo":"CLASS"},"targets":[{"selector":".course-background-circle","originalId":"64a8536d254922f4138ecfa1|f34ccf51-ae24-3cef-9bfb-e8f5ed858a2b","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666753289342},"e-225":{"id":"e-225","name":"","animationType":"preset","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-17","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-226"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"f17140a1-52ed-dcf9-ab16-80d4e578cabe","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"f17140a1-52ed-dcf9-ab16-80d4e578cabe","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1688841901810}},"actionLists":{"a-14":{"id":"a-14","title":"Scroll View -> 01","actionItemGroups":[{"actionItems":[{"id":"a-14-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-14-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-14-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":200,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-14-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":200,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809},"a-15":{"id":"a-15","title":"Scroll View -> 02","actionItemGroups":[{"actionItems":[{"id":"a-15-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-15-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-15-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":400,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-15-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":400,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809},"a-21":{"id":"a-21","title":"Scroll View Scale -> 02","actionItemGroups":[{"actionItems":[{"id":"a-21-n","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}},{"id":"a-21-n-2","actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"xValue":0.9,"yValue":0.9,"locked":true}}]},{"actionItems":[{"id":"a-21-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":600,"easing":"ease","duration":800,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-21-n-4","actionTypeId":"TRANSFORM_SCALE","config":{"delay":600,"easing":"ease","duration":800,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"xValue":1,"yValue":1,"locked":true}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929673738},"a-17":{"id":"a-17","title":"Scroll View -> 03","actionItemGroups":[{"actionItems":[{"id":"a-17-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-17-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-17-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":600,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-17-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":600,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}'
 );
 
 export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
@@ -38,13 +38,17 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
               tag="div"
             >
               <_Builtin.Heading tag="h3">
-                {"Programming in C:The fundamentels"}
+                {"Programming in C:"}
+                <br />
+                {"The fundamentals"}
               </_Builtin.Heading>
             </_Builtin.Block>
             <_Builtin.Paragraph
               className={_utils.cx(_styles, "paragraph-large")}
             >
-              {"Description"}
+              {
+                "Discover the foundation of programming. Learn to write, debug, and understand C code while building a solid foundation for future tech learning."
+              }
             </_Builtin.Paragraph>
             <_Builtin.Grid
               className={_utils.cx(_styles, "course-feature-grid")}
@@ -66,7 +70,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                   className={_utils.cx(_styles, "paragraph-regular")}
                   tag="div"
                 >
-                  {"Active Community"}
+                  {"Personalized content"}
                 </_Builtin.Block>
               </_Builtin.Block>
               <_Builtin.Block
@@ -85,45 +89,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                   className={_utils.cx(_styles, "paragraph-regular")}
                   tag="div"
                 >
-                  {"One-on-One Mentorship"}
-                </_Builtin.Block>
-              </_Builtin.Block>
-              <_Builtin.Block
-                className={_utils.cx(_styles, "course-feature")}
-                id={_utils.cx(
-                  _styles,
-                  "w-node-f17140a1-52ed-dcf9-ab16-80d4e578ca6c-e578ca57"
-                )}
-                tag="div"
-              >
-                <_Builtin.HtmlEmbed
-                  className={_utils.cx(_styles, "icon-regular")}
-                  value="%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewbox%3D%220%200%2024%2024%22%20fill%3D%22none%22%3E%0A%3Cpath%20d%3D%22M12%2019.5C7.85775%2019.5%204.5%2016.1423%204.5%2012C4.5%207.85775%207.85775%204.5%2012%204.5C16.1423%204.5%2019.5%207.85775%2019.5%2012C19.5%2016.1423%2016.1423%2019.5%2012%2019.5ZM11.2523%2015L16.5548%209.69675L15.4943%208.63625L11.2523%2012.879L9.1305%2010.7573L8.07%2011.8177L11.2523%2015Z%22%20fill%3D%22%23050505%22%2F%3E%0A%3C%2Fsvg%3E"
-                />
-                <_Builtin.Block
-                  className={_utils.cx(_styles, "paragraph-regular")}
-                  tag="div"
-                >
-                  {"Active Community"}
-                </_Builtin.Block>
-              </_Builtin.Block>
-              <_Builtin.Block
-                className={_utils.cx(_styles, "course-feature")}
-                id={_utils.cx(
-                  _styles,
-                  "w-node-f17140a1-52ed-dcf9-ab16-80d4e578ca70-e578ca57"
-                )}
-                tag="div"
-              >
-                <_Builtin.HtmlEmbed
-                  className={_utils.cx(_styles, "icon-regular")}
-                  value="%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewbox%3D%220%200%2024%2024%22%20fill%3D%22none%22%3E%0A%3Cpath%20d%3D%22M12%2019.5C7.85775%2019.5%204.5%2016.1423%204.5%2012C4.5%207.85775%207.85775%204.5%2012%204.5C16.1423%204.5%2019.5%207.85775%2019.5%2012C19.5%2016.1423%2016.1423%2019.5%2012%2019.5ZM11.2523%2015L16.5548%209.69675L15.4943%208.63625L11.2523%2012.879L9.1305%2010.7573L8.07%2011.8177L11.2523%2015Z%22%20fill%3D%22%23050505%22%2F%3E%0A%3C%2Fsvg%3E"
-                />
-                <_Builtin.Block
-                  className={_utils.cx(_styles, "paragraph-regular")}
-                  tag="div"
-                >
-                  {"Active Community"}
+                  {"Peer-to-peer"}
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Grid>
@@ -162,7 +128,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                     )}
                     tag="div"
                   >
-                    {"Fundamentels"}
+                    {"Fundamentals"}
                   </_Builtin.Block>
                 </_Builtin.Block>
               </_Builtin.Block>
@@ -192,7 +158,9 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                   height="auto"
                   src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecff9_Course%20Icon%2002.svg"
                 />
-                <_Builtin.Block tag="div">{"Tag 1"}</_Builtin.Block>
+                <_Builtin.Block tag="div">
+                  {"5 real-world problems"}
+                </_Builtin.Block>
               </_Builtin.Block>
               <_Builtin.Block
                 className={_utils.cx(_styles, "badge-icon", "pink")}
@@ -204,19 +172,9 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                   height="auto"
                   src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecffa_Course%20Icon%2003.svg"
                 />
-                <_Builtin.Block tag="div">{"Tag 2"}</_Builtin.Block>
-              </_Builtin.Block>
-              <_Builtin.Block
-                className={_utils.cx(_styles, "badge-icon", "blue")}
-                tag="div"
-              >
-                <_Builtin.Image
-                  loading="lazy"
-                  width="auto"
-                  height="auto"
-                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecffb_Course%20Icon%2001.svg"
-                />
-                <_Builtin.Block tag="div">{"Tag 3"}</_Builtin.Block>
+                <_Builtin.Block tag="div">
+                  {"2 hours of video content"}
+                </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
@@ -404,7 +362,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                         className={_utils.cx(_styles, "paragraph-regular")}
                         tag="div"
                       >
-                        {"Certificate of completion"}
+                        {"Proof of completion on-chain"}
                       </_Builtin.Block>
                     </_Builtin.Block>
                   </_Builtin.Block>

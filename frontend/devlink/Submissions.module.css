@@ -88,6 +88,10 @@
   color: var(--redBase-7296a0e6);
 }
 
+.label-large.text-color-green {
+  color: var(--greenDark-3acfb82c);
+}
+
 .button-primary-right-icon {
   display: flex;
   min-height: 40px;

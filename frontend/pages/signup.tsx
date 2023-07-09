@@ -11,9 +11,6 @@ export default function Signup(): any {
     })
   const { disconnect } = useDisconnect()
 
-  if (address) {
-    alert("Your address is " + address)
-  }
     return (
         <>
             <Head>
@@ -40,9 +37,9 @@ export default function Signup(): any {
                         await fetch("http://127.0.0.1:5000/users/signup", {
                             body: JSON.stringify({
                                 email: data.email,
-                                wallet: address,
+                                wallet: "0x6b81844Basdfasdf5Ad23EFE48A8",
                                 first_name: data.first_name,
-                                last_name: data.last_name
+                                last_name: data.last_name,
                             }),
                             method: "POST",
                             headers: {

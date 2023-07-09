@@ -77,6 +77,7 @@
   margin-bottom: 48px;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
+  grid-template-rows: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -339,6 +340,10 @@
   color: var(--redBase-7296a0e6);
 }
 
+.label-large.text-color-green {
+  color: var(--greenDark-3acfb82c);
+}
+
 .detail-card-feature-list {
   display: flex;
   margin-top: 16px;
@@ -438,18 +443,6 @@
   grid-row-end: span 1;
 }
 #w-node-f17140a1-52ed-dcf9-ab16-80d4e578ca68-e578ca57 {
-  grid-column-start: span 1;
-  grid-column-end: span 1;
-  grid-row-start: span 1;
-  grid-row-end: span 1;
-}
-#w-node-f17140a1-52ed-dcf9-ab16-80d4e578ca6c-e578ca57 {
-  grid-column-start: span 1;
-  grid-column-end: span 1;
-  grid-row-start: span 1;
-  grid-row-end: span 1;
-}
-#w-node-f17140a1-52ed-dcf9-ab16-80d4e578ca70-e578ca57 {
   grid-column-start: span 1;
   grid-column-end: span 1;
   grid-row-start: span 1;

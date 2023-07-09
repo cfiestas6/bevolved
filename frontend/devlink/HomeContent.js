@@ -199,11 +199,9 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
               className={_utils.cx(_styles, "badge", "red")}
               tag="div"
             >
-              <_Builtin.Block tag="div">{"CATEGORY SECTION"}</_Builtin.Block>
+              <_Builtin.Block tag="div">{"Bevolved"}</_Builtin.Block>
             </_Builtin.Block>
-            <_Builtin.Heading tag="h2">
-              {"What's covered in the course?"}
-            </_Builtin.Heading>
+            <_Builtin.Heading tag="h2">{"How it works"}</_Builtin.Heading>
           </_Builtin.Block>
           <_Builtin.Grid
             className={_utils.cx(_styles, "category-grid")}
@@ -227,7 +225,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                   loading="lazy"
                   width="auto"
                   height="auto"
-                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfe5_Category%20Icon%2003.svg"
+                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfe6_Category%20Icon%2004.svg"
                 />
               </_Builtin.Block>
               <_Builtin.Block
@@ -235,7 +233,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                 tag="div"
               >
                 <_Builtin.Heading tag="h5">
-                  {"Email Marketing"}
+                  {"Custom growth path"}
                 </_Builtin.Heading>
               </_Builtin.Block>
               <_Builtin.Paragraph>
@@ -267,7 +265,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                 tag="div"
               >
                 <_Builtin.Heading tag="h5">
-                  {"Paid Advertising"}
+                  {"Personalized content"}
                 </_Builtin.Heading>
               </_Builtin.Block>
               <_Builtin.Paragraph>
@@ -295,100 +293,6 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                   loading="lazy"
                   width="auto"
                   height="auto"
-                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfe7_Category%20Icon%2005.svg"
-                />
-              </_Builtin.Block>
-              <_Builtin.Block
-                className={_utils.cx(_styles, "margin-bottom-08")}
-                tag="div"
-              >
-                <_Builtin.Heading tag="h5">{"SEO"}</_Builtin.Heading>
-              </_Builtin.Block>
-              <_Builtin.Paragraph>
-                {"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
-              </_Builtin.Paragraph>
-            </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "category-card")}
-              id={_utils.cx(
-                _styles,
-                "w-node-_006f636f-6f54-08ad-9b30-110f98c076b7-98c07669"
-              )}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "category-icon-wrapper", "green")}
-                tag="div"
-              >
-                <_Builtin.Image
-                  className={_utils.cx(_styles, "icon-extra-large")}
-                  loading="lazy"
-                  width="auto"
-                  height="auto"
-                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfe4_Category%20Icon%2001.svg"
-                />
-              </_Builtin.Block>
-              <_Builtin.Block
-                className={_utils.cx(_styles, "margin-bottom-08")}
-                tag="div"
-              >
-                <_Builtin.Heading tag="h5">
-                  {"Funnel Optimization"}
-                </_Builtin.Heading>
-              </_Builtin.Block>
-              <_Builtin.Paragraph>
-                {"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
-              </_Builtin.Paragraph>
-            </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "category-card")}
-              id={_utils.cx(
-                _styles,
-                "w-node-_006f636f-6f54-08ad-9b30-110f98c076bf-98c07669"
-              )}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "category-icon-wrapper", "blue")}
-                tag="div"
-              >
-                <_Builtin.Image
-                  className={_utils.cx(_styles, "icon-extra-large")}
-                  loading="lazy"
-                  width="auto"
-                  height="auto"
-                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfe6_Category%20Icon%2004.svg"
-                />
-              </_Builtin.Block>
-              <_Builtin.Block
-                className={_utils.cx(_styles, "margin-bottom-08")}
-                tag="div"
-              >
-                <_Builtin.Heading tag="h5">
-                  {"Content Marketing"}
-                </_Builtin.Heading>
-              </_Builtin.Block>
-              <_Builtin.Paragraph>
-                {"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
-              </_Builtin.Paragraph>
-            </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "category-card")}
-              id={_utils.cx(
-                _styles,
-                "w-node-_006f636f-6f54-08ad-9b30-110f98c076c7-98c07669"
-              )}
-              tag="div"
-            >
-              <_Builtin.Block
-                className={_utils.cx(_styles, "category-icon-wrapper", "red")}
-                tag="div"
-              >
-                <_Builtin.Image
-                  className={_utils.cx(_styles, "icon-extra-large")}
-                  loading="lazy"
-                  width="auto"
-                  height="auto"
                   src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfe2_Category%20Icon%2006.svg"
                 />
               </_Builtin.Block>
@@ -397,7 +301,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                 tag="div"
               >
                 <_Builtin.Heading tag="h5">
-                  {"Social Media Marketing"}
+                  {"Certified on-chain"}
                 </_Builtin.Heading>
               </_Builtin.Block>
               <_Builtin.Paragraph>

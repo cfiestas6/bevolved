@@ -103,6 +103,10 @@
   }
 }
 
+.highlight-card.double {
+  grid-column-gap: 0px;
+}
+
 .highlight-image {
   overflow: hidden;
   width: 100%;
@@ -136,6 +140,10 @@
   .highlight-content {
     padding: 24px;
   }
+}
+
+.highlight-content.succes {
+  background-color: var(--greenLight-b234a77e);
 }
 
 .badge {
@@ -239,6 +247,10 @@
 
 .label-large.text-color-red {
   color: var(--redBase-7296a0e6);
+}
+
+.label-large.text-color-green {
+  color: var(--greenDark-3acfb82c);
 }
 
 .background-wrapper {
