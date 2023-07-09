@@ -14,7 +14,7 @@ export function Banner({ as: _Component = _Builtin.Block }) {
         src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ed02b_Banner%20Left.svg"
       />
       <_Builtin.Block className={_utils.cx(_styles, "banner-text")} tag="div">
-        {"Launching Q4 2024"}
+        {"🔥 Earn credits by reviewing peer-to-peer"}
       </_Builtin.Block>
       <_Builtin.Image
         className={_utils.cx(_styles, "banner-right")}

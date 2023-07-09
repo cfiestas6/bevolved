@@ -37,7 +37,7 @@ export default function Signup(): any {
                         await fetch("http://127.0.0.1:5000/users/signup", {
                             body: JSON.stringify({
                                 email: data.email,
-                                wallet: "0x6b81844Basdfasdf5Ad23EFE48A8",
+                                wallet: "0x6b81844Basdfa111sdfd23EFE48A8",
                                 first_name: data.first_name,
                                 last_name: data.last_name,
                             }),

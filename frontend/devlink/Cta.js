@@ -30,7 +30,7 @@ export function Cta({ as: _Component = _Builtin.Block }) {
               className={_utils.cx(_styles, "badge", "gray")}
               tag="div"
             >
-              <_Builtin.Block tag="div">{"Waitlist"}</_Builtin.Block>
+              <_Builtin.Block tag="div">{"Get started"}</_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
               className={_utils.cx(_styles, "margin-bottom-32")}
@@ -40,7 +40,7 @@ export function Cta({ as: _Component = _Builtin.Block }) {
                 className={_utils.cx(_styles, "h2-heading")}
                 tag="h1"
               >
-                {"CTA"}
+                {"join the community"}
               </_Builtin.Heading>
             </_Builtin.Block>
             <_Builtin.FormWrapper>

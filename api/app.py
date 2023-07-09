@@ -145,9 +145,9 @@ def exam_end():
     student_repository = data.get('repository')
     exam.repository = student_repository
     test_result = 90 # run_tests_on_repo(student_repository, "/test/tests/exam")
-    student_id = data.get('student_id')
-    grades = Grades.query.find_by(student_id=student_id).first()
-    grades.exam00 = test_result
+    # student_id = data.get('student_id')
+    # grades = Grades.query.find_by(student_id=student_id).first()
+    # grades.exam00 = test_result
     db.session.commit()
 
     return jsonify({
@@ -161,7 +161,7 @@ def exam_verify():
     passed = data.get('passed')
     exam_id = data.get('exam_id')
     verificator_id = data.get('verificator_id')
-    exam = Exams.query.find_by(exam_id=exam_id)
+    exam = Exams.query.Find_by(exam_id=exam_id)
     exam.verificator_id = verificator_id
     exam.passed = passed
     db.session.commit()

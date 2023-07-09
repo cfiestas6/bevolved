@@ -14,7 +14,7 @@ export default function Submission(): JSX.Element {
             <Navigation
                 coursesUrl={{ href: "/courses" }}
                 homeUrl={{ href: "/" }} />
-            <Submissions />
+            <Submissions startReviewUrl={{ href: "/review" }} />
             <Footer />
         </>
     )

@@ -46,7 +46,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                   tag="div"
                 >
                   <_Builtin.Heading tag="h2">
-                    {"Join the community"}
+                    {"join the community"}
                   </_Builtin.Heading>
                 </_Builtin.Block>
                 <_Builtin.Paragraph
@@ -74,7 +74,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                   loading="lazy"
                   width="auto"
                   height="auto"
-                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfd8_Content%20Image%2001.webp"
+                  src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64aa4f75c09d97fe04791b8c_Group%207-min.png"
                 />
               </_Builtin.Block>
             </_Builtin.Grid>
@@ -100,7 +100,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                 loading="lazy"
                 width="auto"
                 height="auto"
-                src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ecfd7_Content%20Image%2002.webp"
+                src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64aa50558d8065f1232c3c87_Section-min.png"
               />
             </_Builtin.Block>
             <_Builtin.Block
@@ -120,7 +120,7 @@ export function HomeContent({ as: _Component = _Builtin.Block }) {
                 tag="div"
               >
                 <_Builtin.Heading tag="h2">
-                  {"Content tailored to your learning journey."}
+                  {"content tailored to your goals"}
                 </_Builtin.Heading>
               </_Builtin.Block>
               <_Builtin.Paragraph

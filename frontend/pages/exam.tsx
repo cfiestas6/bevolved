@@ -7,7 +7,7 @@ export default function Exam(): JSX.Element {
         await fetch("http://127.0.0.1:5000/exam/end", {
             body: JSON.stringify({
                 student_id: 1, // to change
-                exam_id: 1, // to change
+                exam_id: 10, // to change
                 repository: "https://github.com/Noeljarillo/bevolvedExam",
 
             }),

@@ -34,7 +34,7 @@ export function FaqSection({ as: _Component = _Builtin.Block }) {
             className={_utils.cx(_styles, "h2-heading")}
             tag="h2"
           >
-            {"Some of the most frequently asked questions"}
+            {"some of the most frequently asked questions"}
           </_Builtin.Heading>
         </_Builtin.Block>
         <_Builtin.Block

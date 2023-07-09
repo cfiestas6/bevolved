@@ -8,7 +8,7 @@ export default function Reviews(): JSX.Element {
         await fetch("http://127.0.0.1:5000/exam/verify", {
             body: JSON.stringify({
                 passed: true,
-                exam_id: 1, // to change
+                exam_id: 10, // to change
                 verificator_id: 1, // to change
             }),
             method: "POST",

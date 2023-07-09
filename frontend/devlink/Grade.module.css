@@ -107,6 +107,11 @@
   grid-column-gap: 0px;
 }
 
+.highlight-card.half {
+  max-width: 50%;
+  grid-template-columns: 1fr;
+}
+
 .highlight-content {
   display: flex;
   height: 100%;

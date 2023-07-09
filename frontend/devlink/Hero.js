@@ -149,7 +149,7 @@ export function Hero({
               loading="lazy"
               width="auto"
               height="auto"
-              src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ed029_Hero%20Image.webp"
+              src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64aa4e96e4f2ae05bec99c93_Hero%20Image%20(2)-min.png"
             />
           </_Builtin.Block>
         </_Builtin.Grid>

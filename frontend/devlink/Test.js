@@ -1,16 +1,9 @@
 import React from "react";
 import * as _Builtin from "./_Builtin";
-import * as _interactions from "./interactions";
 import * as _utils from "./utils";
 import _styles from "./Test.module.css";
 
-const _interactionsData = JSON.parse(
-  '{"events":{"e-179":{"id":"e-179","name":"","animationType":"custom","eventTypeId":"SCROLL_INTO_VIEW","action":{"id":"","actionTypeId":"GENERAL_START_ACTION","config":{"delay":0,"easing":"","duration":0,"actionListId":"a-14","affectedElements":{},"playInReverse":false,"autoStopEventId":"e-180"}},"mediaQueries":["main","medium","small","tiny"],"target":{"selector":".rich-text","originalId":"64a8536d254922f4138ecfa0|fdb17719-962d-204f-f7cf-acafcfb61783","appliesTo":"CLASS"},"targets":[{"selector":".rich-text","originalId":"64a8536d254922f4138ecfa0|fdb17719-962d-204f-f7cf-acafcfb61783","appliesTo":"CLASS"}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":0,"scrollOffsetUnit":"%","delay":null,"direction":null,"effectIn":null},"createdOn":1666752319949}},"actionLists":{"a-14":{"id":"a-14","title":"Scroll View -> 01","actionItemGroups":[{"actionItems":[{"id":"a-14-n","actionTypeId":"TRANSFORM_MOVE","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":44,"xUnit":"PX","yUnit":"px","zUnit":"PX"}},{"id":"a-14-n-2","actionTypeId":"STYLE_OPACITY","config":{"delay":0,"easing":"","duration":500,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":0,"unit":""}}]},{"actionItems":[{"id":"a-14-n-3","actionTypeId":"STYLE_OPACITY","config":{"delay":200,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"value":1,"unit":""}},{"id":"a-14-n-4","actionTypeId":"TRANSFORM_MOVE","config":{"delay":200,"easing":"ease","duration":600,"target":{"useEventTarget":true,"id":"6333ba9ce586f2ff39e80f07|004ed479-d319-4f77-3da6-def33880d13a"},"yValue":0,"xUnit":"PX","yUnit":"px","zUnit":"PX"}}]}],"useFirstGroupAsInitialState":true,"createdOn":1665929437809}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}'
-);
-
 export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
-  _interactions.useInteractions(_interactionsData, _styles);
-
   return (
     <_Component className={_utils.cx(_styles, "template-section")} tag="div">
       <_Builtin.Block
@@ -57,7 +50,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     className={_utils.cx(_styles, "template-header")}
                     tag="div"
                   >
-                    {"Lorem"}
+                    {"General"}
                   </_Builtin.Block>
                 </_Builtin.Block>
                 <_Builtin.Link
@@ -67,7 +60,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#Color",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"About"}</_Builtin.Block>
                 </_Builtin.Link>
                 <_Builtin.Link
                   className={_utils.cx(_styles, "template-link")}
@@ -76,7 +69,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"Rules"}</_Builtin.Block>
                 </_Builtin.Link>
               </_Builtin.Block>
               <_Builtin.Block tag="div">
@@ -88,7 +81,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     className={_utils.cx(_styles, "template-header")}
                     tag="div"
                   >
-                    {"Lorem"}
+                    {"Questions"}
                   </_Builtin.Block>
                 </_Builtin.Block>
                 <_Builtin.Link
@@ -98,7 +91,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#Color",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"1"}</_Builtin.Block>
                 </_Builtin.Link>
                 <_Builtin.Link
                   className={_utils.cx(_styles, "template-link")}
@@ -107,7 +100,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"2"}</_Builtin.Block>
                 </_Builtin.Link>
                 <_Builtin.Link
                   className={_utils.cx(_styles, "template-link")}
@@ -116,7 +109,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"3"}</_Builtin.Block>
                 </_Builtin.Link>
                 <_Builtin.Link
                   className={_utils.cx(_styles, "template-link")}
@@ -125,7 +118,7 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"4"}</_Builtin.Block>
                 </_Builtin.Link>
                 <_Builtin.Link
                   className={_utils.cx(_styles, "template-link")}
@@ -134,7 +127,16 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
                     href: "#",
                   }}
                 >
-                  <_Builtin.Block tag="div">{"Lorem"}</_Builtin.Block>
+                  <_Builtin.Block tag="div">{"5"}</_Builtin.Block>
+                </_Builtin.Link>
+                <_Builtin.Link
+                  className={_utils.cx(_styles, "template-link")}
+                  button={false}
+                  options={{
+                    href: "#",
+                  }}
+                >
+                  <_Builtin.Block tag="div">{"6"}</_Builtin.Block>
                 </_Builtin.Link>
               </_Builtin.Block>
             </_Builtin.Block>
@@ -154,16 +156,16 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
               >
                 <_Builtin.Block tag="div">
                   <_Builtin.Strong>
-                    {"#include <stdio.h>int main() {"}
-                    <br />
-                    {"  int a = 5;"}
-                    <br />
-                    {'  printf("%d, %d\\n", a, a++);'}
-                    <br />
-                    {"  return 0;"}
-                    <br />
-                    {"}"}
+                    {
+                      "You will create a function named x_strcmp that accepts two arguments: s1 and s2. Both arguments are pointers to strings. The function should return an integer based on the comparison between s1 and s2."
+                    }
                   </_Builtin.Strong>
+                  <br />
+                  {"‍"}
+                  <br />
+                  {
+                    "Your function should work like the standard strcmp function, which compares two strings lexicographically. The comparison is done character by character. If the two strings are identical, it returns 0. If the strings are not identical, it returns the difference between the ASCII values of the first pair of characters that differ in the two strings. If the ASCII value of the character in s1 is greater than s2, the returned value should be positive. If it's smaller, the returned value should be negative."
+                  }
                   <br />
                 </_Builtin.Block>
               </_Builtin.Block>
@@ -173,72 +175,123 @@ export function Test({ as: _Component = _Builtin.Block, submitTest = {} }) {
               tag="div"
             >
               <_Builtin.Block
-                className={_utils.cx(_styles, "fb-typography-block")}
+                className={_utils.cx(_styles, "template-header-block")}
                 tag="div"
+                id="Color"
               >
-                <_Builtin.Block
-                  className={_utils.cx(_styles, "fb-typography-wrapper")}
-                  tag="div"
-                >
-                  <_Builtin.Block
-                    className={_utils.cx(_styles, "fb-typography-detail")}
-                    tag="div"
-                  >
-                    <_Builtin.Block
-                      className={_utils.cx(_styles, "template-header")}
-                      tag="div"
-                    >
-                      {"Lorem"}
-                    </_Builtin.Block>
-                    <_Builtin.Block
-                      className={_utils.cx(_styles, "fb-style-heading-small")}
-                      tag="div"
-                    >
-                      {"Lorem"}
-                    </_Builtin.Block>
-                  </_Builtin.Block>
-                  <_Builtin.Block
-                    className={_utils.cx(_styles, "paragraph-style-wrap")}
-                    tag="div"
-                  >
-                    <_Builtin.Paragraph
-                      className={_utils.cx(_styles, "paragraph-small")}
-                    >
-                      {"Lorem"}
-                    </_Builtin.Paragraph>
-                  </_Builtin.Block>
+                <_Builtin.Block tag="div">
+                  <_Builtin.Strong>
+                    {
+                      "Create a function named x_strncmp that accepts three arguments: s1, s2, and n. The first two are pointers to strings, while n is an unsigned integer representing the maximum number of characters to be compared. Your function should return an integer based on the comparison between the first n characters of s1 and s2."
+                    }
+                    <br />
+                    {"‍"}
+                  </_Builtin.Strong>
+                  <br />
+                  {
+                    "The function should behave similarly to the standard strncmp function, comparing the two strings lexicographically up to n characters. If the two strings are identical up to n characters, it returns 0. If they are not identical, it should return the difference between the ASCII values of the first pair of characters (up to n characters) that differ in the two strings."
+                  }
+                  <br />
                 </_Builtin.Block>
-                <_Builtin.Block
-                  className={_utils.cx(_styles, "fb-line")}
-                  tag="div"
-                />
-                <_Builtin.Block
-                  className={_utils.cx(_styles, "fb-typography-wrapper")}
-                  tag="div"
-                >
-                  <_Builtin.Block
-                    className={_utils.cx(_styles, "fb-typography-detail")}
-                    tag="div"
-                  >
-                    <_Builtin.Block
-                      className={_utils.cx(_styles, "template-header")}
-                      tag="div"
-                    >
-                      {"lorem"}
-                    </_Builtin.Block>
-                  </_Builtin.Block>
-                  <_Builtin.Block
-                    className={_utils.cx(_styles, "paragraph-style-wrap")}
-                    tag="div"
-                  >
-                    <_Builtin.RichText
-                      className={_utils.cx(_styles, "rich-text")}
-                      tag="div"
-                    >
-                      <_Builtin.Heading tag="h2">{"Lorem"}</_Builtin.Heading>
-                      <_Builtin.Blockquote>{"Lorem"}</_Builtin.Blockquote>
-                    </_Builtin.RichText>
-                  </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+            <_Builtin.Block
+              className={_utils.cx(_styles, "template-block")}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "template-header-block")}
+                tag="div"
+                id="Color"
+              >
+                <_Builtin.Block tag="div">
+                  <_Builtin.Strong>{"Objective: "}</_Builtin.Strong>
+                  {
+                    "In this exercise, you will write a function in C that concatenates one string to the end of another. This is similar to the strcat function in the string.h library, but for this task, you will write your own implementation."
+                  }
+                  <br />
+                  {"‍"}
+                  <br />
+                  <_Builtin.Strong>{"Description: "}</_Builtin.Strong>
+                  {
+                    "Create a function named x_strcat that accepts two arguments: dest and src. Both arguments are pointers to strings. The function should concatenate the string pointed to by src to the end of the string pointed to by dest."
+                  }
+                  <br />
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+            <_Builtin.Block
+              className={_utils.cx(_styles, "template-block")}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "template-header-block")}
+                tag="div"
+                id="Color"
+              >
+                <_Builtin.Block tag="div">
+                  <_Builtin.Strong>
+                    {
+                      "In this exercise, you will write a function in C that concatenates a specified number of characters from one string to the end of another. This is similar to the strncat function in the string.h library, but for this task, you will write your own implementation."
+                    }
+                  </_Builtin.Strong>
+                  <br />
+                  {"‍"}
+                  <br />
+                  {
+                    "Create a function named x_strncat that accepts three arguments: dest, src, and nb. The first two arguments are pointers to strings, while nb is an unsigned integer representing the maximum number of characters to be concatenated. The function should concatenate the string pointed to by src to the end of the string pointed to by dest up to nb characters."
+                  }
+                  <br />
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+            <_Builtin.Block
+              className={_utils.cx(_styles, "template-block")}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "template-header-block")}
+                tag="div"
+                id="Color"
+              >
+                <_Builtin.Block tag="div">
+                  <_Builtin.Strong>
+                    {
+                      "In this exercise, you will write a function in C that calculates the factorial of a given integer iteratively. This is similar to using a factorial function in a math library, but for this task, you will write your own implementation."
+                    }
+                  </_Builtin.Strong>
+                  <br />
+                  {"‍"}
+                  <br />
+                  {
+                    "Create a function named x_iterative_factorial that accepts one argument: nb. The argument is an integer for which the factorial is to be calculated. The function should return the factorial of nb."
+                  }
+                  <br />
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+            <_Builtin.Block
+              className={_utils.cx(_styles, "template-block")}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "template-header-block")}
+                tag="div"
+                id="Color"
+              >
+                <_Builtin.Block tag="div">
+                  <_Builtin.Strong>
+                    {
+                      "In this exercise, you will write a function in C that calculates the power of a given integer recursively. This is similar to using a power function in a math library, but for this task, you will write your own implementation."
+                    }
+                  </_Builtin.Strong>
+                  <br />
+                  {"‍"}
+                  <br />
+                  {
+                    "Create a function named x_recursive_power that accepts two arguments: nb and power. The argument nb is the base and power is the exponent. The function should return the result of nb raised to the power power."
+                  }
+                  <br />
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>

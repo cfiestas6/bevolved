@@ -60,7 +60,7 @@ export function Tree({ as: _Component = _Builtin.Block }) {
             loading="lazy"
             width="auto"
             height="auto"
-            src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a9bfb9c2052d300efe9b75_tree-finished.svg"
+            src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64aa51d269265b578bade348_tree-start.svg"
           />
         </_Builtin.Block>
       </_Builtin.Block>

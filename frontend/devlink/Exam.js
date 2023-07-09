@@ -258,7 +258,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                         className={_utils.cx(_styles, "paragraph-regular")}
                         tag="div"
                       >
-                        {"1"}
+                        {"6 challenges"}
                       </_Builtin.Block>
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -284,7 +284,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                         className={_utils.cx(_styles, "paragraph-regular")}
                         tag="div"
                       >
-                        {"2"}
+                        {"Github file upload"}
                       </_Builtin.Block>
                     </_Builtin.Block>
                   </_Builtin.Block>
@@ -310,33 +310,7 @@ export function Exam({ as: _Component = _Builtin.Block, startExamUrl = {} }) {
                         className={_utils.cx(_styles, "paragraph-regular")}
                         tag="div"
                       >
-                        {"3"}
-                      </_Builtin.Block>
-                    </_Builtin.Block>
-                  </_Builtin.Block>
-                  <_Builtin.Block
-                    className={_utils.cx(_styles, "detail-card-feature-item")}
-                    tag="div"
-                  >
-                    <_Builtin.Image
-                      className={_utils.cx(_styles, "icon-regular")}
-                      loading="lazy"
-                      width="auto"
-                      height="auto"
-                      src="https://uploads-ssl.webflow.com/64a8536d254922f4138ecf48/64a8536d254922f4138ed001_Detail%20Icon%2006.svg"
-                    />
-                    <_Builtin.Block
-                      className={_utils.cx(
-                        _styles,
-                        "feature-item-text-wrapper"
-                      )}
-                      tag="div"
-                    >
-                      <_Builtin.Block
-                        className={_utils.cx(_styles, "paragraph-regular")}
-                        tag="div"
-                      >
-                        {"4"}
+                        {"Portfolio project"}
                       </_Builtin.Block>
                     </_Builtin.Block>
                   </_Builtin.Block>

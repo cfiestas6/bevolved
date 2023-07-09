@@ -34,7 +34,7 @@ export function Recommended({
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Heading tag="h1">
-            {"current recommendation"}
+            {"current recommendations"}
           </_Builtin.Heading>
         </_Builtin.Block>
         <_Builtin.Block
@@ -60,24 +60,9 @@ export function Recommended({
             />
           </_Builtin.Block>
           <_Builtin.Grid
-            className={_utils.cx(_styles, "highlight-card")}
+            className={_utils.cx(_styles, "highlight-card", "half")}
             tag="div"
           >
-            <_Builtin.Block
-              className={_utils.cx(_styles, "highlight-image")}
-              tag="div"
-            >
-              <_Builtin.Image
-                className={_utils.cx(_styles, "image-cover")}
-                dyn={{
-                  bind: {},
-                }}
-                height="auto"
-                loading="lazy"
-                width="auto"
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-              />
-            </_Builtin.Block>
             <_Builtin.Block
               className={_utils.cx(_styles, "highlight-content")}
               tag="div"
@@ -145,6 +130,10 @@ export function Recommended({
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
+            <_Builtin.Block
+              className={_utils.cx(_styles, "highlight-image")}
+              tag="div"
+            />
           </_Builtin.Grid>
         </_Builtin.Block>
       </_Builtin.Block>
